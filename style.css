@@ -1,0 +1,54 @@
+h1{
+    color: blue;
+}
+#rapper{
+    margin: 0 auto;
+}
+#header{
+    text-align: center;
+}
+.team{
+    border-radius: 3ch;
+}
+.team h2, h3{
+    text-align: center;
+}
+.team p{
+    padding-left: 10ch;
+}
+#devon{
+    background-color: rgba(14, 141, 14, 0.5);
+}
+#justin{
+    background-color: rgba(68, 118, 175, 0.5);
+}
+.player{
+    padding: 1ch;
+}
+#reserves{
+    font-weight: bold;
+}
+.bench{
+    padding-left: 1ch;
+}
+.magic p{
+    line-height: 3ch;
+}
+#tim{
+    background-color: rgba(173, 175, 68, 0.5);
+}
+#max{
+    background-color: rgba(224, 28, 28, 0.5);
+}
+#andrew{
+    background-color: rgba(24, 201, 255, 0.5);
+}
+#rest{
+    background-color: rgba(151, 17, 118, 0.5);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: gold;
+}
