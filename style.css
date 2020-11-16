@@ -46,6 +46,9 @@ h1{
 #rest{
     background-color: rgba(151, 17, 118, 0.5);
 }
+#ernie{
+    background-color: rgba(68, 240, 0, 0.5);
+}
 a{
     text-decoration: none;
 }
