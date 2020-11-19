@@ -1,8 +1,12 @@
+
 h1{
-    color: blue;
+    color: black;
 }
 #rapper{
     margin: 0 auto;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 #header{
     text-align: center;
@@ -10,17 +14,92 @@ h1{
 .team{
     border-radius: 3ch;
 }
+.player:hover{
+    color: chartreuse;
+}
 .team h2, h3{
     text-align: center;
+}
+.team h3:hover{
+    color: chartreuse;
+}
+.team h2:hover{
+    color: chartreuse;
 }
 .team p{
     padding-left: 10ch;
 }
+
 #devon{
-    background-color: rgba(14, 141, 14, 0.5);
+    background-color: rgba(221, 30, 30, 0.5);
+    background-image: url('img/hill.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#devon p:hover{
+    color: red;
+}
+#devon .player:hover{
+    color: red;
+}
+#devon h3:hover{
+    color: red;
+}
+#devon h2:hover{
+    color: red;
+}
+#devon .magic:hover{
+    color: red;
 }
 #justin{
-    background-color: rgba(68, 118, 175, 0.5);
+    background-color: rgba(199, 19, 19, 0.5);
+    background-image: url('img/pat.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: black;
+}
+#justin p:hover{
+    color: aliceblue;
+}
+#justin .player:hover{
+    color: aliceblue;
+}
+#trevor{
+    background-color: black;
+    background-image: url('img/kamara.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#trevor p:hover{
+    color: gold;
+}
+#trevor .player:hover{
+    color: gold;
+}
+#trevor h3:hover{
+    color: gold;
+}
+#trevor h2:hover{
+    color: gold;
+}
+#trevor .magic:hover{
+    color: gold;
+}
+#devin{
+    background-color: rgba(2, 55, 116, 0.5);
+    background-image: url('img/russ.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: chartreuse;
+}
+#devin p:hover{
+    color: aliceblue;
+}
+#devin .player:hover{
+    color: aliceblue;
+}
+.intro:hover{
+    color: chartreuse;
 }
 .player{
     padding: 1ch;
@@ -31,23 +110,145 @@ h1{
 .bench{
     padding-left: 1ch;
 }
+.magic{
+    padding-left: 1ch;
+    padding-right: 1ch;
+}
+.magic:hover{
+    color: chartreuse;
+}
 .magic p{
     line-height: 3ch;
 }
 #tim{
-    background-color: rgba(173, 175, 68, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('img/claypool.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+}
+#tim p:hover{
+    color: gold;
+}
+#tim .player:hover{
+    color: gold;
+}
+#tim h3:hover{
+    color: gold;
+}
+#tim h2:hover{
+    color: gold;
+}
+#tim .magic:hover{
+    color: gold;
 }
 #max{
-    background-color: rgba(224, 28, 28, 0.5);
+    background-color: white;
+    background-image: url('img/dkallday.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#max .magic:hover{
+    color: rgb(24, 140, 179);
 }
 #andrew{
-    background-color: rgba(24, 201, 255, 0.5);
+    background-image: url('img/arod.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(2, 56, 2);
 }
 #rest{
-    background-color: rgba(151, 17, 118, 0.5);
+    background-color: rgba(224, 28, 28, 0.5);
+    background-image: url('img/mike.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#rest p:hover{
+    color: gold;
+}
+#rest .player:hover{
+    color: gold;
+}
+#rest h3:hover{
+    color: gold;
+}
+#rest h2:hover{
+    color: gold;
+}
+#rest h4:hover{
+    color: gold;
+}
+#rest .magic:hover{
+    color: gold;
 }
 #ernie{
-    background-color: rgba(68, 240, 0, 0.5);
+    background-color: rgba(224, 28, 28, 0.5);
+    background-image: url('img/kyler.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#ernie p:hover{
+    color: red;
+}
+#ernie .player:hover{
+    color: red;
+}
+#ernie h3:hover{
+    color: red;
+}
+#ernie h2:hover{
+    color: red;
+}
+#ernie .magic:hover{
+    color: red;
+}
+#chris{
+    background-color: rgba(224, 28, 28, 0.5);
+    background-image: url('img/cook.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#chris p:hover{
+    color: blueviolet;
+}
+#chris .player:hover{
+    color: blueviolet;
+}
+#chris h3:hover{
+    color: blueviolet;
+}
+#chris h2:hover{
+    color: blueviolet;
+}
+#chris h4:hover{
+    color: blueviolet;
+}
+#chris .magic:hover{
+    color: blueviolet;
+}
+#sven{
+    background-color: rgba(224, 28, 28, 0.5);
+    background-image: url('img/lamar.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#sven p:hover{
+    color: blueviolet;
+}
+#sven .player:hover{
+    color: blueviolet;
+}
+#sven h3:hover{
+    color: blueviolet;
+}
+#sven h2:hover{
+    color: blueviolet;
+}
+#sven h4:hover{
+    color: blueviolet;
+}
+#sven .magic:hover{
+    color: blueviolet;
 }
 a{
     text-decoration: none;
