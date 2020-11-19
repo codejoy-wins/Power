@@ -158,7 +158,7 @@ h1{
     background-color: rgb(2, 56, 2);
 }
 #rest{
-    background-color: rgba(224, 28, 28, 0.5);
+    background-color:black;
     background-image: url('img/mike.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -203,7 +203,7 @@ h1{
     color: red;
 }
 #chris{
-    background-color: rgba(224, 28, 28, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     background-image: url('img/cook.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -227,7 +227,7 @@ h1{
     color: blueviolet;
 }
 #sven{
-    background-color: rgba(224, 28, 28, 0.5);
+    background-color: black;
     background-image: url('img/lamar.jpg');
     background-size: contain;
     background-repeat: no-repeat;
